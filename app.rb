@@ -43,6 +43,8 @@ class App < Sinatra::Base
     when 'divide'
       result = @n1 / @n2
     end
+    puts @n1
+    puts @n2
     puts result
     result
   end
