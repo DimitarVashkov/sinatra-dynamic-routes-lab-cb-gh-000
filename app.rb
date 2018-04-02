@@ -35,8 +35,15 @@ class App < Sinatra::Base
 
     case @op
     when 'add'
-      @n1
-      
+      @n1 + @n2
+    when 'subtract'
+      @n1 - @n2
+    when 'multiply'
+      @n1 * @n2
+    when 'divide'
+      @n1 / @n2
+    end
+
   end
 
 
